@@ -1,6 +1,10 @@
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+import project1 from "../assets/project1.png";
+import project2 from "../assets/project2.png";
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications.  I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+
+export const ABOUT_TEXT = `
+I am a passionate full stack developer currently pursuing my BTech in Information Technology from Netaji Subhash Engineering College, where I am now in my third year. My journey in web development began with a deep fascination for technology and how it shapes our world.I am particularly focused on enhancing user experiences by creating intuitive and engaging web applications. My academic background and hands-on projects have equipped me with the skills to design solutions that not only meet technical requirements but also provide a seamless user experience. I thrive on taking on new challenges and continuously seek opportunities to innovate and grow in the field of web development.`;
 
 export const EXPERIENCES = [
   {
@@ -10,58 +14,33 @@ export const EXPERIENCES = [
     description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
     technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
   },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+ 
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: "",  // Placeholder or alternative content
+    title: "API integrated TECH-NEWS",
+    image: project1, 
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Task Management App",
-    image: "",  // Placeholder or alternative content
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "This system integrates with a third-party API, specifically the NewsAPI, to fetch the latest news headlines. The application is built using React. The purpose of the system is to retrieve and display news articles from the NewsAPI, allowing users to stay updated with current tech updates.",
+    technologies: ["HTML", "CSS", "React", "tailwind CSS","java script"],
   },
   {
     title: "Portfolio Website",
-    image: "",  // Placeholder or alternative content
+    image: project2,  // Placeholder or alternative content
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["HTML", "CSS", "React", "tailwind CSS", "Framers-motion"],
   },
-  {
-    title: "Blogging Platform",
-    image: "",  // Placeholder or alternative content
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
+  // {
+  //   title: "Task Management App",
+  //   image: "",  // Placeholder or alternative content
+  //   description:
+  //     "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+  //   technologies: ["HTML", "CSS", "React","Java script" ],
+  // }
+ 
+  
 ];
 
 export const CONTACT = {

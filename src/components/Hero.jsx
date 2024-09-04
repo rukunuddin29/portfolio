@@ -41,34 +41,40 @@ function Hero() {
         </div>
 
         <motion.div
-          className="absolute left-5 top-10 md:left-[15%] md:top-[10%]"
-          drag
-          dragConstraints={{ left: -200, right: 200, top: -200, bottom: 200 }}
-          whileHover={{ scale: 1.1 }}
-        >
-          <img
-            src={circle}
-            alt="drag me"
-            className="w-20 h-20 md:w-24 md:h-24 lg:w-60 lg:h-60 cursor-pointer shadow-lg"
-            draggable="false"
-            title="Drag me!"
-          />
-        </motion.div>
+        className="absolute left-5 top-10 md:left-[15%] md:top-[10%]"
+        drag
+        dragConstraints={{ left: -200, right: 200, top: -200, bottom: 200 }}
+        whileHover={{ scale: 1.1 }}
+        initial={{ x: -200, opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
+        transition={{ duration: 0.8 }}
+      >
+        <img
+          src={circle}
+          alt="drag me"
+          className="w-20 h-20 md:w-24 md:h-24 lg:w-60 lg:h-60 cursor-pointer shadow-lg"
+          draggable="false"
+          title="Drag me!"
+        />
+      </motion.div>
 
-        <motion.div
-          className="absolute right-5 bottom-5 lg:right-[180px] lg:bottom-[-80px]"
-          drag
-          dragConstraints={{ left: -200, right: 200, top: -200, bottom: 200 }}
-          whileHover={{ scale: 1.1 }}
-        >
-          <img
-            src={square}
-            alt="drag me"
-            className="w-20 h-20 md:w-24 md:h-24 lg:w-60 lg:h-60 cursor-pointer shadow-lg"
-            draggable="false"
-            title="Drag me!"
-          />
-        </motion.div>
+      <motion.div
+        className="absolute right-5 bottom-5 lg:right-[180px] lg:bottom-[-80px]"
+        drag
+        dragConstraints={{ left: -200, right: 200, top: -200, bottom: 200 }}
+        whileHover={{ scale: 1.1 }}
+        initial={{ x: 200, opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
+        transition={{ duration: 0.8 }}
+      >
+        <img
+          src={square}
+          alt="drag me"
+          className="w-20 h-20 md:w-24 md:h-24 lg:w-60 lg:h-60 cursor-pointer shadow-lg"
+          draggable="false"
+          title="Drag me!"
+        />
+      </motion.div>
 
         <motion.p
           className="mx-10 w-4/5 py-2  font-light tracking-tighter z-10"
