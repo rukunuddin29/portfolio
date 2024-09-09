@@ -21,7 +21,7 @@ function Hero() {
 
         <div className="space-y-2">
           <motion.h1
-            className="text-4xl md:text-6xl font-thin leading-tight"
+            className="text-4xl md:text-6xl  font-thin leading-tight"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
@@ -30,7 +30,7 @@ function Hero() {
           </motion.h1>
           <motion.h1
             className="bg-gradient-to-r from-pink-300 via-cyan-300 to-purple-500 bg-clip-text 
-            text-4xl lg:text-6xl md:text-6xl
+            text-4xl lg:text-6xl md:text-6xl 
             tracking-tight text-transparent name"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -41,7 +41,7 @@ function Hero() {
         </div>
 
         <motion.div
-        className="absolute left-5 top-10 md:left-[15%] md:top-[10%]"
+        className=" absolute left-5 top-10 md:left-[15%] md:top-[10%]"
         drag
         dragConstraints={{ left: -200, right: 200, top: -200, bottom: 200 }}
         whileHover={{ scale: 1.1 }}
@@ -52,14 +52,14 @@ function Hero() {
         <img
           src={circle}
           alt="drag me"
-          className="w-20 h-20 md:w-24 md:h-24 lg:w-60 lg:h-60 cursor-pointer shadow-lg"
+          className="w-20 h-20 md:block sm:hidden md:w-24 md:h-24 lg:w-60 lg:h-60 cursor-pointer shadow-lg"
           draggable="false"
           title="Drag me!"
         />
       </motion.div>
 
       <motion.div
-        className="absolute right-5 bottom-5 lg:right-[180px] lg:bottom-[-80px]"
+        className="md:block absolute right-5 bottom-5 sm:hidden  lg:right-[180px] lg:bottom-[-80px]"
         drag
         dragConstraints={{ left: -200, right: 200, top: -200, bottom: 200 }}
         whileHover={{ scale: 1.1 }}
