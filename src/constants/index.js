@@ -1,10 +1,11 @@
 import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications.  I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I'm a full-stack developer skilled in React, Next.js, Node.js, and MongoDB, focused on building scalable applications that drive business growth and enhance user experiences.`;
 
 export const ABOUT_TEXT = `
-I am a passionate full stack developer currently pursuing my BTech in Information Technology from Netaji Subhash Engineering College, where I am now in my third year. My journey in web development began with a deep fascination for technology and how it shapes our world.I am particularly focused on enhancing user experiences by creating intuitive and engaging web applications. My academic background and hands-on projects have equipped me with the skills to design solutions that not only meet technical requirements but also provide a seamless user experience. I thrive on taking on new challenges and continuously seek opportunities to innovate and grow in the field of web development.`;
+
+I'm a passionate full-stack developer pursuing a BTech in Information Technology at Netaji Subhash Engineering College, currently in my third year. My journey in web development began with a fascination for how technology shapes our world. I'm focused on enhancing user experiences through intuitive and engaging web applications. With hands-on projects and a solid academic foundation, I design solutions that meet technical requirements while ensuring seamless user experiences. I'm always eager to take on new challenges and continuously grow in the field of web development.`;
 
 export const EXPERIENCES = [
   {
