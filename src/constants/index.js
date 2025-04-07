@@ -19,27 +19,14 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+ 
   {
-    title: "API integrated TECH-NEWS",
-    image: project1, 
+    title: "Task Management App",
+    image: "",  // Placeholder or alternative content
     description:
-      "This system integrates with a third-party API, specifically the NewsAPI, to fetch the latest news headlines. The application is built using React. The purpose of the system is to retrieve and display news articles from the NewsAPI, allowing users to stay updated with current tech updates.",
-    technologies: ["HTML", "CSS", "React", "tailwind CSS","java script"],
-  },
-  {
-    title: "Portfolio Website",
-    image: project2,  // Placeholder or alternative content
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "tailwind CSS", "Framers-motion"],
-  },
-  // {
-  //   title: "Task Management App",
-  //   image: "",  // Placeholder or alternative content
-  //   description:
-  //     "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-  //   technologies: ["HTML", "CSS", "React","Java script" ],
-  // }
+      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+    technologies: ["HTML", "CSS", "React","Java script" ],
+  }
  
   
 ];
