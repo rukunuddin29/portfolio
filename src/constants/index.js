@@ -19,14 +19,36 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
- 
-  {
-    title: "Task Management App",
-    image: "",  // Placeholder or alternative content
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "React","Java script" ],
-  }
+  
+    {
+      title: "Task Management App",
+      image: "",  // Add your image path here
+      description:
+        "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+      technologies: ["HTML", "CSS", "React", "JavaScript"],
+      github: "https://github.com/your-username/task-management-app",
+      demo: "https://task-management-app-demo.vercel.app",
+    },
+    {
+      title: "Airbnb Clone",
+      image: "",  // Add your image path here
+      description:
+        "A full-stack clone of Airbnb with functionalities like property listings, bookings, user authentication, and responsive UI.",
+      technologies: ["React", "Tailwind CSS", "Node.js", "MongoDB"],
+      github: "https://github.com/your-username/airbnb-clone",
+      demo: "https://airbnb-clone-demo.vercel.app",
+    },
+    {
+      title: "E-commerce Website",
+      image: "",  // Add your image path here
+      description:
+        "An e-commerce platform featuring product listings, a shopping cart, checkout system, and user authentication.",
+      technologies: ["React", "Redux", "Express", "MongoDB"],
+      github: "https://github.com/your-username/ecommerce-website",
+      demo: "https://ecommerce-demo.vercel.app",
+    }
+
+  
  
   
 ];

@@ -91,7 +91,7 @@ function Hero() {
         {/* Buttons for Resume and Projects */}
         <div className="mt-6 space-x-4">
         <motion.a
-  href="/MYRESUME.pdf" // Assuming the PDF is in the public folder
+  href="/resume.pdf" // Assuming the PDF is in the public folder
   target="_blank"
   rel="noopener noreferrer"
   className="px-6 py-2 bg-purple-500 text-white rounded-3xl shadow-md hover:bg-purple-600 transition-colors"
