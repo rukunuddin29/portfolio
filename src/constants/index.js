@@ -1,5 +1,7 @@
 import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";
+import Airbnb from '../assets/Airbnb.png'
+import ecomm from '../assets/ecomm.png'
 
 export const HERO_CONTENT = `I'm a full-stack developer skilled in React, Next.js, Node.js, and MongoDB, focused on building scalable applications that drive business growth and enhance user experiences.`;
 
@@ -21,31 +23,22 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   
     {
-      title: "Task Management App",
-      image: "",  // Add your image path here
-      description:
-        "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-      technologies: ["HTML", "CSS", "React", "JavaScript"],
-      github: "https://github.com/your-username/task-management-app",
-      demo: "https://task-management-app-demo.vercel.app",
-    },
-    {
       title: "Airbnb Clone",
-      image: "",  // Add your image path here
+      image: Airbnb,  // Add your image path here
       description:
         "A full-stack clone of Airbnb with functionalities like property listings, bookings, user authentication, and responsive UI.",
       technologies: ["React", "Tailwind CSS", "Node.js", "MongoDB"],
-      github: "https://github.com/your-username/airbnb-clone",
-      demo: "https://airbnb-clone-demo.vercel.app",
+      github: "https://github.com/rukunuddin29/Airbnb",
+      demo: "https://airbnb-eight-pi-23.vercel.app",
     },
     {
       title: "E-commerce Website",
-      image: "",  // Add your image path here
+      image: ecomm,  // Add your image path here
       description:
         "An e-commerce platform featuring product listings, a shopping cart, checkout system, and user authentication.",
       technologies: ["React", "Redux", "Express", "MongoDB"],
-      github: "https://github.com/your-username/ecommerce-website",
-      demo: "https://ecommerce-demo.vercel.app",
+      github: "https://github.com/rukunuddin29/ecommerce",
+      demo: "https://ecommerce-sandy-theta.vercel.app/",
     }
 
   
