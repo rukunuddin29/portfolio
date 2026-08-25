@@ -4,6 +4,7 @@ import Tech from "./components/Tech";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import About from "./components/About";
+import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         
         <Hero />
         <About />
+        <Experience />
         <Tech/>
         <Projects/>
         <Footer/>

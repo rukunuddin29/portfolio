@@ -111,6 +111,7 @@ function Hero() {
             transition={{ duration: 0.6 }}
           >
             Projects
+            
           </motion.button>
         </div>
       </div>

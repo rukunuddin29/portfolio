@@ -20,14 +20,14 @@ function Navbar() {
       >
         <FaGithub />
       </a>
-      <a 
+      {/* <a 
         href="https://www.instagram.com" 
         target="_blank" 
         rel="noopener noreferrer" 
         className="hover:text-pink-400 transition-colors duration-300"
       >
         <FaInstagram />
-      </a>
+      </a> */}
     </nav>
   );
 }
