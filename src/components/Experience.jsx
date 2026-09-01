@@ -49,9 +49,9 @@ function Experience() {
                         <span className="text-neutral-500"> · {exp.location}</span>
                       )}
                     </p>
-                    <p className="text-xs sm:text-sm text-neutral-400 font-light mt-3 leading-relaxed">
+                    {/* <p className="text-xs sm:text-sm text-neutral-400 font-light mt-3 leading-relaxed">
                       {exp.description}
-                    </p>
+                    </p> */}
                     {exp.technologies?.length > 0 && (
                       <div className="flex flex-wrap gap-2 mt-4">
                         {exp.technologies.map((tech, tIdx) => (
